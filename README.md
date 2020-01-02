@@ -1,7 +1,7 @@
 # HG221GS_Crack
 
-破解 HG221GS超级密码:
-https://github.com/AaG7xNnrgbzeyqc5woPS/FiberHome-HG221GS-Decoder
+# 破解 HG221GS超级密码:
+    https://github.com/AaG7xNnrgbzeyqc5woPS/FiberHome-HG221GS-Decoder
 
 a program to decode FiberHome HG221GS FiberCat telecomadmin password
 设备类型 EPON
@@ -11,10 +11,13 @@ a program to decode FiberHome HG221GS FiberCat telecomadmin password
 软件版本号: E60D1.00MA000
 
 ----------------------------------
-浏览网页: http://192.168.1.1/cgi-bin/baseinfoSet.cgi
-或者下载  wget http://192.168.1.1/cgi-bin/baseinfoSet.cgi
+# 实战:
 
-我自己的内容如下:
+    浏览网页: http://192.168.1.1/cgi-bin/baseinfoSet.cgi
+    或者下载  wget http://192.168.1.1/cgi-bin/baseinfoSet.cgi
+
+    我自己的内容如下:
+  ---
 "RETURN":
   {"success": true},
  "BASEINFOSET":
@@ -53,6 +56,7 @@ a program to decode FiberHome HG221GS FiberCat telecomadmin password
    "other_MSSVALUE":"1400",
    "wirelessenable":"0"}
 }
-
+//后面的是注释, 省略号,以及星号.屏蔽掉的内容
+//超级密码和普通密码都已经试过,可以登录
 
 
